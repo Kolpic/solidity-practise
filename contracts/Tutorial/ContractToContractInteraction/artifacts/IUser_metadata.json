@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "username",
+						"type": "string"
+					}
+				],
+				"name": "createUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tutorial/ContractToContractInteraction/Interaction-Game.sol": "IUser"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tutorial/ContractToContractInteraction/Interaction-Game.sol": {
+			"keccak256": "0x399e08c4a93f750858b20f4e1146622e5c1346a80180f029a10162fd135bb8af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35a80cdab51089382d4283b0e25c369f41f4853a9c2789bb6f5e62acb5b291ee",
+				"dweb:/ipfs/QmepjMgTQY3JnNYT2RBVJfaWQHQ4mMr4mgd4fceSCpgokP"
+			]
+		}
+	},
+	"version": 1
+}
