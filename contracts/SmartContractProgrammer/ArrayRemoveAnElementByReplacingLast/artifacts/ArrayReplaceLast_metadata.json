@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmartContractProgrammer/ArrayRemoveAnElementByReplacingLast/ArrayReplaceLast.sol": "ArrayReplaceLast"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmartContractProgrammer/ArrayRemoveAnElementByReplacingLast/ArrayReplaceLast.sol": {
+			"keccak256": "0x1041bac22e827732e87b73c8e039f494c3a017d6e83d7f63abbc4f312cd03f82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ee2569bc9f869fe3056df4f4037051a1bce072bf15db3b0806deb15c936e438",
+				"dweb:/ipfs/QmUaaRf1B4YN2JEaWUwUDgGMCax8AcAtia2hGY88y9dPYM"
+			]
+		}
+	},
+	"version": 1
+}
